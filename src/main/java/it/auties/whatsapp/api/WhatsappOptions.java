@@ -82,7 +82,7 @@ public abstract sealed class WhatsappOptions permits WebOptions, MobileOptions {
    */
   @NonNull
   public abstract ClientType clientType();
-  
+
   /**
    * Options for the web client
    */
@@ -129,6 +129,7 @@ public abstract sealed class WhatsappOptions permits WebOptions, MobileOptions {
      *
      * @return the non-null client type
      */
+    @Override
     @NonNull
     public ClientType clientType() {
       return ClientType.WEB_CLIENT;
@@ -167,6 +168,7 @@ public abstract sealed class WhatsappOptions permits WebOptions, MobileOptions {
      *
      * @return the non-null client type
      */
+    @Override
     @NonNull
     public ClientType clientType() {
       return ClientType.APP_CLIENT;
