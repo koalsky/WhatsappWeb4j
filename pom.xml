@@ -88,7 +88,7 @@
         <protoc.version>1.18</protoc.version>
         <tyrus.version>2.1.0</tyrus.version>
         <lombok.version>1.18.24</lombok.version>
-        <junit.version>5.9.0</junit.version>
+        <junit.version>5.9.2</junit.version>
         <jna.version>5.12.1</jna.version>
         <jackson.version>2.14.0</jackson.version>
         <jackson.modules.version>2.14.0</jackson.modules.version>
